@@ -7,3 +7,8 @@ Dichiariamo chi ha vinto.
 ## Svolgimento
 - creo un prompt per chiedere all'utente di scegliere tra pari e dispari
 - creo un prompt per chiedere all'utente di scegliere un numero da 1 a 5
+- genero un numero usando la funzione math.random
+- sommo i due numeri
+- stabilisco se il numero è dispari o pari
+- dichiaro il vincitore
+- inserisco quello che va inserito nelle funzioni
