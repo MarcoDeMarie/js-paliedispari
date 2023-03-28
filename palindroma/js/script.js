@@ -1,5 +1,22 @@
-const parola = prompt('inserisci una parola')
+const parolaUtente = prompt('inserisci una parola')
 
-for(let i = parola.length; i >= 0; i--){
-  console.log(parola[i])
+
+function palindroma (parola){
+
+  let parolaContrario = ''
+
+  for(let i = parola.length -1; i >= 0; i--){
+    parolaContrario += parola[i]
+  }
+  
+  if(parola === parolaContrario ){
+    return 'è palindroma'
+  }
+  else{
+    return 'non è palindroma'
+  }
 }
+
+const risultato = palindroma(parolaUtente)
+
+console.log(risultato)
